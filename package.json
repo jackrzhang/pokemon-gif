@@ -6,7 +6,11 @@
   "description": "",
   "main": "lib/pokemon-gif.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/**/*.spec.js"
   },
-  "keywords": []
+  "keywords": [],
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.0"
+  }
 }
