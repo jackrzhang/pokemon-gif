@@ -1,6 +1,6 @@
 {
   "name": "pokemon-gif",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Jack R. Zhang <15jzhang@gmail.com>",
   "license": "MIT",
   "description": "GIF urls for all 721 Pokemon!",
