@@ -1,5 +1,5 @@
-var pokedexNumbers = require('./pokedex-numbers-to-name');
-var pokemonNameToNumber = require('./pokemon-name-to-number');
+var pokedexNumbers = require('./lib/pokedex-number-to-name');
+var pokemonNameToNumber = require('./lib/pokemon-name-to-number');
 
 var baseUrl = 'http://randompokemon.com/sprites/animated/';
 var extension = '.gif';

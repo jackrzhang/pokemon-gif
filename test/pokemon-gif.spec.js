@@ -1,4 +1,4 @@
-var pokemonGif = require('./../lib/pokemon-gif');
+var pokemonGif = require('./../src/pokemon-gif');
 var expect = require('chai').expect;
 
 describe('pokemonGif', function() {
