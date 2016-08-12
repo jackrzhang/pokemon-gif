@@ -4,16 +4,22 @@ var expect = require('chai').expect;
 describe('pokemonGif', function() {
   it('returns a string URL representing a pokemon gif', function() {
     expect(pokemonGif(1)).to.be.a('string');
-    expect(pokemonGif(1)).to.equal('http://randompokemon.com/sprites/animated/1.gif');
+    expect(pokemonGif(1)).to.equal('http://www.pokestadium.com/sprites/xy/bulbasaur.gif');
   })
 
   it('accepts a pokedex number as an input parameter', function() {
-    expect(pokemonGif(25)).to.equal('http://randompokemon.com/sprites/animated/25.gif');
+    expect(pokemonGif(25)).to.equal('http://www.pokestadium.com/sprites/xy/pikachu.gif');
   });
 
   it('accepts a string pokemon name as an input parameter', function() {
-    expect(pokemonGif('pikachu')).to.equal('http://randompokemon.com/sprites/animated/25.gif');
-    expect(pokemonGif('PiKaChU')).to.equal('http://randompokemon.com/sprites/animated/25.gif');
+    expect(pokemonGif('pikachu')).to.equal('http://www.pokestadium.com/sprites/xy/pikachu.gif');
+    expect(pokemonGif('PiKaChU')).to.equal('http://www.pokestadium.com/sprites/xy/pikachu.gif');
+
+    // Edge cases
+    expect(pokemonGif('Mr. Mime')).to.equal('http://www.pokestadium.com/sprites/xy/mr-mime.gif');
+    expect(pokemonGif('Mime Jr.')).to.equal('http://www.pokestadium.com/sprites/xy/mime-jr.gif');
+    expect(pokemonGif('Porygon-Z')).to.equal('http://www.pokestadium.com/sprites/xy/porygon-z.gif');
+    expect(pokemonGif('Farfetch\'d')).to.equal('http://www.pokestadium.com/sprites/xy/farfetchd.gif');
   });
 
   it('throws a TypeError when input type is not a string or number', function() {
