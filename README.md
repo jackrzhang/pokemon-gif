@@ -1,6 +1,7 @@
 pokemon-gif
 ============
 [![npm](https://img.shields.io/npm/v/pokemon-gif.svg)](https://www.npmjs.com/package/pokemon-gif)
+[![npm](https://img.shields.io/npm/dt/react-poke-sprites.svg)](https://www.npmjs.com/package/pokemon-gif)
 [![Build Status](https://travis-ci.org/jackrzhang/pokemon-gif.svg?branch=master)](https://travis-ci.org/jackrzhang/pokemon-gif)
 
 Generate a gif url for any pokemon. Credits to the community at [Pokestadium](http://www.pokestadium.com/tools/sprites) for awesome sprites.
