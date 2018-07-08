@@ -1,8 +1,8 @@
 pokemon-gif
 ============
+[![Build Status](https://travis-ci.org/jackrzhang/pokemon-gif.svg?branch=master)](https://travis-ci.org/jackrzhang/pokemon-gif)
 [![npm](https://img.shields.io/npm/v/pokemon-gif.svg)](https://www.npmjs.com/package/pokemon-gif)
 [![npm](https://img.shields.io/npm/dt/pokemon-gif.svg)](https://www.npmjs.com/package/pokemon-gif)
-[![Build Status](https://travis-ci.org/jackrzhang/pokemon-gif.svg?branch=master)](https://travis-ci.org/jackrzhang/pokemon-gif)
 
 Generate a gif url for any pokemon. Sprites are from [Pokestadium](http://www.pokestadium.com/tools/sprites).
 
