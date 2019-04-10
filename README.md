@@ -4,7 +4,7 @@ pokemon-gif
 [![npm](https://img.shields.io/npm/v/pokemon-gif.svg)](https://www.npmjs.com/package/pokemon-gif)
 [![npm](https://img.shields.io/npm/dt/pokemon-gif.svg)](https://www.npmjs.com/package/pokemon-gif)
 
-Generate a gif url for any pokemon. Sprites are from [Pokestadium](http://www.pokestadium.com/tools/sprites).
+This function returns a url for a GIF for a given pokemon name or pokedex number. The sprites themselves hosted by [Pokestadium](http://www.pokestadium.com/tools/sprites).
 
 ## Installation
 ```shell
